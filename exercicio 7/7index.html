@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audios videos</title>
+</head>
+<body>
+
+    <h1>imagens flexiveis</h1> 
+
+    <picture>  
+        <source media="(min-width:750 )" srcset="imagem/html.png" type="imagens/pnj">
+        <source media="(mix-width:1050 )" srcset="imagem/html.png" type="imagens/png">
+        <!--comando para adapitar a imagen ao usuario-->
+        <img src="imagem/html.png" alt="">
+    </picture>
+
+    <h1>reproduzindo audio</h1>
+
+    <p>vamos aprender a reproduzir audio em html 5</p> 
+    <audio src="Tinker Time - Nathan Moore.mp3" controls autoplay></audio>
+    <!--a teg audio para adicionar o audio,a teg "controls para controle e a teg "autoplay" para começar-->
+    <audio preload="metadata" controls autoplay > 
+        <source src="Tinker Time - Nathan Moore.mp3" type="audio/mpeg"> 
+    </audio> 
+    <p>opis seu navegador não esta adequado para abrilo então fassa<a href="Tinker Time - Nathan Moore.mp3"> aqui donwlond</a></p>
+
+<h1>insirir um video ospedado localmente</h1> 
+
+<p>este video esta ospedado no meu servidor</p>
+<video src="imagem e video/video.mp4" width="500" controls></video> 
+<!--a teg video inserir o video, a teg 'width'mudar o tamanho.e smepre bote a teg "controls"--> 
+
+<h1>inserindo video do youtube</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZTrtWjND-as" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+<h1>exercicio 1</h1>  
+<a href="6index.html" rel="next">minha pagina</a>
+</body>
+</html>
