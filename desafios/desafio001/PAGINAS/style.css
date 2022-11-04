@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+/*fontes personalizadas*/
+
+@font-face {
+    font-family:titulo;
+    src: url(EVILDEAD.TTF) format('truetype');
+    font-weight: normal;
+    font-style:normal;}
+
+        /*configuração global*/
+
+        :root{
+            --COR1:#ebcab4;
+            --COR2:#734A46;
+            --COR3:#a78784;
+            --COR4:#a76a6a;
+            --COR5:#5e2e29;
+
+            }
+    
+        /*cabeçario*/
+header{
+    background-color: var(--COR3);
+    border: 10px;
+    border-style: double;
+    border: var(--COR4);
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px;
+    margin: 10px 10px -10px 10px;
+
+    }
+    header > h1{
+        font-family:titulo;
+        text-align: center;
+        text-shadow: 5px 5px 5px #734A46;
+    }
+    header > p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 5px 5px 5px #694340;
+    }
+
+    nav{
+        background-color: var(--COR1);
+        border: 20px;
+        border-radius: 0px 0px 10px 10px;
+        padding: 20px;
+        margin: 10px ;
+        }
+    nav > a{
+        text-decoration: none;
+        color: #694340;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+        color: #351b18;
+        background-color: var(--COR3);
+        transition-duration: 1s;
+        border-radius: 5px;
+    }
+
+         /*conteudo principal*/
+
+    body{
+        background-color: #351b18;
+    }
+    main{
+        background-color: #734A46;
+        border: 30px;
+        padding: 30px;
+        margin: auto;
+        margin: 30px;
+    }
+    main > h1{
+        background-image:linear-gradient(to right,var(--COR5),var(--COR4));
+        font-family:titulo ;
+        text-align: center;
+        font-style: italic;
+        }
+    main > h2{
+        text-shadow: 2px 2px 2px black;
+        color: var(--COR3);
+        text-align: left;
+        font-style: italic;
+        
+    }
+    main > p {
+        color: var(--COR1);
+    }
+    aside{
+         background-color: var(--COR3);
+         border: 10px;
+         border-radius: 20px 0px 20px 0px;
+         padding: 30px;
+    }
+    article{
+        background-color:var(--COR3) ;
+        padding: 10px;
+        border-radius: 0px 20px 0px 10px ;
+    } 
+    .lista{
+        background-color: var(--COR1);
+        border: 10px;
+        border-radius: 20px;
+        padding: 15px 0px 15px 0px;
+        padding: 10px;
+        margin: 50px 45px 50px 45px;
+        columns: 2;
+    }
+    ul{
+        color: var(--COR5) ;
+        text-shadow: 2px 2px 5px black;
+    }
+    div.video{
+        position: relative;
+            }
+    div.video > iframe{
+        position: absolute;
+        padding: 5% 0% 0% 13%;
+        width: 1000px;
+        height: 500px;
+    }
+
+    .img1{
+        margin: auto;
+        margin: 30px;
+        margin-top: 30px;
+        margin-left: 200px;
+
+    }
+    img{
+        width: 828px;
+        height: 400px;
+    }
+    .img2{
+        margin-top: 30px;
+        margin-left: 300px;
+
+    }
+
+
+                           /*roda pe*/
+                        
+    footer{
+        margin: 0px 200px 0px 145px;
+    }
+                           
+    .rodape{
+        background-color:var(--COR1);
+        border-radius: 30px;
+        padding: 23px 0px 0px 208px;
+        margin: 600px 0px 0px 40px;
+    }
+    .rodape > h1{
+        color: var(--COR2);
+        text-shadow: 3px 3px 5px black;
+        padding-bottom: 25px;
+    }
+
+    .rodape > p{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .rodape P:hover{
+        transition-duration: 2s;
+        color: rgb(173, 43, 43);
+        border-radius: 30px;
+
+    }
