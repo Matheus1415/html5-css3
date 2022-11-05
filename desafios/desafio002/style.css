@@ -87,6 +87,18 @@ height: 400px;
 
                               /*conteudo principal*/
 
+
+a{
+   color: var(--cor2);
+   text-decoration: none;
+   text-shadow: 1px 1px 2px var(--cor2);
+   font-weight: bold;
+}
+a:hover{
+    color: #009005;
+    text-decoration: underline;
+ }
+
 aside > h1{
     color: var(--cor8);
     text-align: center;
@@ -122,13 +134,18 @@ article > h1{
     font-weight: bolder;
 }
 
-  
-
 article > p{
     text-align: justify;
     color: var(--cor2);
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 30px;
 }
 
+div.img2{
+    columns: 2;
+    max-height: 500px;
+    min-height: 250px;
+    max-width: 400px;
+    min-height: 200px;
+}
