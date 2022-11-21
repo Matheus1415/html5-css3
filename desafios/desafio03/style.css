@@ -1,11 +1,25 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: poema;
+    src: url(font/Winter\ Deer.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --font1:Arial, Helvetica, sans-serif;
+    --font2:poema;
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
 html,body{
+    font-family: var(--font1);
     min-height: 100vh;
     background-color: darkgray;
 }
@@ -18,6 +32,7 @@ header{
 header > h1{
     font-variant: small-caps;
     padding: 50px;
+    font-size: 8vw;
 }
 header > p{
     padding: 50px;
@@ -37,6 +52,8 @@ section{
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-family: var(--font2);
+    font-size: 2.5vw;
 }
 
 section.normal{
@@ -50,7 +67,9 @@ section.img{
 }
 
 section.img > p{
+    display: inline-block;
     width: 400px;
+    padding: 6px;
     background-color: rgba(22, 22, 22, 0.768);
 }
 
