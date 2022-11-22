@@ -47,6 +47,19 @@ header > a :hover,footer > a :hover{
     text-decoration: underline;
 }
 
+section#img1{
+    background-image: url('img/img1.jpeg');
+    background-position: right center;
+   background-size: cover;
+}
+
+section#img2{
+    background-image: url('img/img2.jpg');
+    background-position: right center;
+    background-size: cover;
+
+}
+
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -63,7 +76,9 @@ section.normal{
 
 section.img{
     background-color: rgb(47, 47, 47);
+    background-attachment: fixed;
     color: white;
+    box-shadow: 6px 6px 13px 0px black;
 }
 
 section.img > p{
@@ -71,6 +86,7 @@ section.img > p{
     width: 400px;
     padding: 6px;
     background-color: rgba(22, 22, 22, 0.768);
+    text-shadow: 2px 2px 4px black;
 }
 
 footer{

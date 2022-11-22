@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        .linha{
+            background-color: darkgrey;
+        }
+        .dado{
+             background-color: yellow;
+        }
+        td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>primeira tabelas</h1>
+    <!--
+        HIERAQUIA DE TABELAS SIMPLES
+        TABLE=tabel
+            TABLE ROW=linha de tabela
+                TABLE HEADER= cabeçalho de tabela
+                    TABLE DATE=dado de tabela
+    -->
+
+    <table>
+        <tr class="linha"><!--linha da tabela-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr><!--linha da tabela-->
+            <td>A2</td>
+            <td class="dado">B2</td>
+            <td>C2</td>
+        </tr>
+        <tr><!--linha da tabela-->
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+
+    </table>
+</body>
+</html>
