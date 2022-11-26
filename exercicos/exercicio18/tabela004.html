@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        border-collapse: collapse;
+        width: 300px;
+    }
+    TH, td{
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+    caption{
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+</style>
+
+</head>
+<body>
+    <h1>exercicio de tabela</h1>
+    <table>
+        <caption>
+            filmes favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">GRUPOS</th>
+                <th scope="col">NOMES</th>
+                <th colspan="3" scope="colgroup">FILMES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">mulher </th>
+                <td>Ana maria santos</td>
+                <td>alien</td>
+                <td>ranbo</td>
+                <td>vingadores</td>
+            </tr>
+            <tr>
+                <td>beatriz sousa</td>
+                <td>hulk</td>
+                <td>inception</td>
+                <td>batiman</td>
+            </tr>
+            <tr>
+                <td>claudia melo</td>
+                <td>oblovion</td>
+                <td>matrix</td>
+                <td>big hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">homen</th>
+                <td>Bruno mendoça</td>
+                <td>intocaveis</td>
+                <td>amnésia</td>
+                <td>Gladiadores</td>
+            </tr>
+            <tr>
+                <td>Daniel lourenço</td>
+                <td>oldboy</td>
+                <td>wall-e</td>
+                <td>dangal</td>
+            </tr>
+            <tr>
+                <td>fabiado mota</td>
+                <td>stay war</td>
+                <td>taxi driver</td>
+                <td>toy story</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th rowspan="3" scope="row">TOTAL</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
