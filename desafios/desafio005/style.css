@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(img/Design\ sem\ nome.png);
+    margin: 98vh;
+}
+
+div.img{
+   padding: 0px 0px 0px 500px ;
+}
+img{
+    border-radius: 100%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+     
+}
+p{
+    text-align: center;
+}

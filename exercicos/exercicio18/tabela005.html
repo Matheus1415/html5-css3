@@ -27,6 +27,14 @@
         .destaque{
             background-color: lawngreen;
         }
+        col.cnome{
+            background-color: aqua;
+        }
+        col.cgrupo{
+            background-color: rgb(0, 255, 38);
+        }col.cprof{
+            background-color: rgb(212, 255, 0);
+        }
     
     </style>
     
@@ -34,12 +42,15 @@
 <body>
     <h1>exercicio de tabela</h1>
     <table>
-        <colgroup></colgroup>
+        <colgroup>
+        <col class="cnome">
+        <col class="cgrupo" span="2">
+        <col class="cprof">
+        </colgroup>
         <caption>cadastro</caption>
         <tr>
             <th scope="col">nome</th>
             <th scope="col">sexo</th>
-            <th scope="col">idade</th>
             <th scope="col">profisão</th>
         </tr>
         <tr>
