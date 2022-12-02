@@ -1,21 +1,40 @@
 @charset "UTF-8";
 
 body{
-    background-image: url(img/Design\ sem\ nome.png);
-    margin: 98vh;
+    background: black url(img/Design\ sem\ nome.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 div.img{
-   padding: 0px 0px 0px 500px ;
+    margin-left: 30%;
 }
 img{
     border-radius: 100%;
+}
+
+main{
+    padding: 30px;
+    margin: 30px;
     margin: auto;
 }
-h1{
+
+main >p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-shadow: 2px 3px 40px  rgb(255, 0, 0);
     text-align: center;
-     
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 3px 40px  rgb(255, 0, 0);
+    text-align: center;
 }
 p{
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 3px 40px  rgb(255, 0, 0);
     text-align: center;
 }

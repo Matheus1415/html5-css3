@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body{
+    background: black url(img/fundo.jpg) no-repeat fixed ;
+    background-size: cover;
+    max-height: 1000px;
+    min-height: 500px;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.534);
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+}
+main > h1{
+    background-image: linear-gradient(to right, rgb(108, 247, 124), rgb(0, 255, 251));
+    color: white;
+    text-align: center;
+    text-shadow: 2px 5px 5px black;
+}
+
+main > a{
+    color: rgb(0, 106, 255);
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 5px px 2px rgb(0, 0, 0);
+
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 130px;
+    }
+
+    main > a:hover{
+        text-decoration: underline;
+        color: red;
+    }
+
+label, input{
+    margin-left: 70px;
+}
+
+label{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 15px;
+}
+input{
+    width: 300px;
+}
+img{
+    margin-left: 150px;
+    max-width: 150px;
+}
+div.entrada > h1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 170px;
+    max-width: 100px;
+}
