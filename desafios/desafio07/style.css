@@ -5,10 +5,10 @@
 
 :root{
    --cor01:rgb(0, 0, 0);
-   --cor02:rgb(255, 214, 6);
+   --cor02:rgb(6, 255, 255);
    --cor03:rgb(101, 101, 101);
    --cor04:rgb(255, 255, 255);
-   --cor05:red;
+   --cor05:rgb(255, 149, 149);
 
 }
 
@@ -22,8 +22,8 @@ header{
 }
 
 header > h1{
-    font-size: 40px;
-    text-align: left;
+    font-size: 50px;
+    text-align: center;
 }
 
 span{
