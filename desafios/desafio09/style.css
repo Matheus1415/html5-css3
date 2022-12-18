@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(136, 252, 252);
+}
+
+.container{
+    background-image: url(img/fundo1.jpg);
+    background-attachment: fixed ;
+}
