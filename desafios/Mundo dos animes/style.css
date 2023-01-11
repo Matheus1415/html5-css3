@@ -1,0 +1,116 @@
+@charset "UTF-8";   
+
+@font-face {
+    font-family:fontep ;
+    src: url(fontes/Green\ London.ttf) format('truetype');
+    font-weight: normal;
+    font-style:normal;
+}
+
+:root{
+    --cor01:black;
+    --cor02:white;
+    --cor03:rgb(114, 114, 114);
+    --cor04:rgb(255, 84, 84);
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: var(--cor01);
+    padding: 5px;
+    margin: 0px;
+}
+
+header > h1{
+    color: var(--cor02);
+    font-size: 30px;
+    text-align: center;
+    font-family: fontep,Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: var(--cor03);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav > a{
+    color: var(--cor02);
+    text-decoration: none;
+    text-shadow: 2px 2px 4px var(--cor01);
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px; 
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: var(--cor04);
+    font-size: 20px;
+    transition-duration: 1s;
+}
+
+main{
+    margin: 20px;
+    padding: 20px;
+}
+
+main > h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main > p{
+    text-indent: 20px;
+    text-align: justify;
+    margin-top: 8px; 
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+img{
+    margin-top: 20px;
+}
+
+img.DemonSlayer{
+    width: 400px;
+    height:500px;
+}
+
+img.Nanatsu{
+    width: 400px;
+    height:500px;
+}
+
+img.Titan{
+    width: 400px;
+    height:500px;
+
+}
+
+
+img.Haikyuu{
+    width: 400px;
+    height:600px;
+
+}
+
+img.OnePiece{
+    width: 400px;
+    height:500px;
+
+}
+
+img.Hunter{
+    width: 400px;
+    height:500px;
+
+}
