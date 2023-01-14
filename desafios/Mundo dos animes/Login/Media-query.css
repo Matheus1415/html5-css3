@@ -1,0 +1,127 @@
+@charset "UTF-8"; 
+
+/*Todas as demais versões*/
+
+/*
+ Typical device Breakpoints
+ pequenas telas: até 600px
+ celular: de 600px a 768px
+ tablet:de 768px a 992px
+ desktop: de 992 a 1200
+ telas grander acima de 1200
+*/
+
+@font-face {
+    font-family:fontep ;
+    src: url(fontes/Green\ London.ttf) format('truetype');
+    font-weight: normal;
+    font-style:normal;
+}
+
+@media screen and (min-width:768px) and (max-width:992px){ /*tablet*/
+    header{
+        background-color: var(--cor01);
+        padding: 10px;
+        margin: 0px;
+    }
+    
+    header > h1{
+        color: var(--cor02);
+        font-size: 40px;
+        text-align: center;
+        font-family: fontep,Arial, Helvetica, sans-serif;
+    }
+    
+    main > h1{
+        font-size: 40px;
+    }
+
+    main > p{
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){ /*Desktop*/
+    header{
+        background-color: var(--cor01);
+        padding: 25px;
+        margin: 0px;
+    }
+    
+    header > h1{
+        color: var(--cor02);
+        font-size: 40px;
+        text-align: center;
+        font-family: fontep,Arial, Helvetica, sans-serif;
+    }
+    
+    main{
+        
+        display: block;
+        margin: auto;
+        width: 800px;
+
+    }
+
+    main > h1{
+        font-size: 50px;
+    }
+
+    main > p{
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+
+
+}
+
+@media screen and (min-width:1200px) { /*Telas grandes*/
+    header{
+        background-color: var(--cor01);
+        padding: 25px;
+        margin: 0px;
+    }
+    
+    header > h1{
+        color: var(--cor02);
+        font-size: 60px;
+        text-align: center;
+        font-family: fontep,Arial, Helvetica, sans-serif;
+    }
+
+    nav > a{
+        font-size: 25px;
+     
+    }
+    
+    nav > a:hover{
+        text-decoration: underline;
+        color: var(--cor04);
+        font-size: 30px;
+        transition-duration: 1s;
+    }
+    
+    
+    main{
+        
+        display: block;
+        margin: auto;
+        width: 1000px;
+
+    }
+
+    main > h1{
+        font-size: 50px;
+    }
+
+    main > p{
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+ 
+
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Media-query.css">
+    <title>Tela de login</title>
+</head>
+<body>
+    <header>
+        <h1>Mundo dos animes BR</h1>
+    </header>
+
+    <nav>
+        <a href="#">Suportes</a>
+        <a href="#">Noticias</a>
+        <a href="#">Loja</a>
+        <a href="#">Cadastre-se</a>
+     </nav>
+
+    <main>
+        <div class="formulario">
+            <form action="Login.php" method="post" autocomplete="on">
+
+                <h1>Preencha o formulario</h1>
+                <p>
+                    <label for="inome">nome: </label>
+                    <input type="text" name="noem" id="inome" required autocomplete="name" size="10" minlength="15" maxlength="25" placeholder="Digite seu nome">
+                </p>
+
+               <p>
+                <label for="iemail">email:</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email" size="10" placeholder="Digite seu email">
+               </p>
+
+               <p>
+                <label for="isenha">senha: </label>
+                <input type="password" name="senha" id="isenha" required autocomplete="new-password" size="12" minlength="8" placeholder="Digite sua senha">
+               </p>
+
+              
+                  <p class="botao">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                  </p>
+            
+
+            </form>
+        </div>
+    </main>
+</body>
+</html>
